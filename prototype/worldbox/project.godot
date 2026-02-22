@@ -1,0 +1,21 @@
+; Engine configuration file.
+; It's best edited using the Godot editor.
+; If you edit it manually, please keep the structure.
+
+config_version=5
+
+[application]
+config/name="LyfeSandboxPrototype"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.0", "ForwardPlus")
+
+[display]
+window/size/width=1280
+window/size/height=720
+window/size/resizable=true
+
+[input]
+world_increase= {"deadzone": 0.5, "events": [ {"type": "MOUSE_BUTTON", "index": 1, "pressed": false} ] }
+
+[rendering]
+renderer/render_loop="forward_plus"
